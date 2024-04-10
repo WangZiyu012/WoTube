@@ -15,7 +15,10 @@ the left is the CSS Property, and the right is the CSS Value.
 		width: 105px;
 		cursor: pointer;
 		margin-right: 8px;
-		transition: ;
+		transition: opacity 0.2s;
+		padding-left: 2px;
+		padding-right: 2px;
+		vertical-align: top;
 	}
 
 	.subscribe-button:hover {
@@ -37,6 +40,9 @@ the left is the CSS Property, and the right is the CSS Value.
 		width: 60px;
 		cursor: pointer;
 		margin-right: 8px;
+		transition: background-color 1s, color 1s;
+		padding-left: 30;
+		vertical-align: top;
 	}
 
 	.join-button:hover {
@@ -58,6 +64,11 @@ the left is the CSS Property, and the right is the CSS Value.
 		height: 36px;
 		width: 66px;
 		cursor: pointer;
+		vertical-align: top;
+	}
+
+	.tweet-button:hover {
+		box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 	}
 </style>
 
@@ -80,6 +91,16 @@ the left is the CSS Property, and the right is the CSS Value.
 
 <!-- 
    how to change the style when hover over the button: 
+ -->
+
+<!-- 
+	space inside the button is called "padding".
+ -->
+
+<!-- 
+	CSS Box Model:
+	how much space an element takes up on the webpage.
+	how far it is from other elements.
  -->
 
 <button class="join-button">JOIN</button>
