@@ -28,7 +28,11 @@
 				margin-bottom: 0;
 			}
 
-			.video-author,
+			.video-author {
+				font-size: 14px;
+				color: rgb(87, 89, 85);
+				margin-top: 0;
+			}
 			.video-stats {
 				display: inline-block;
 				font-size: 14px;
@@ -41,6 +45,8 @@
 				width: 300px;
 				height: 200px;
 				background-color: rgb(251, 247, 247);
+				vertical-align: top;
+				margin-right: 17px;
 			}
 		</style>
 	</head>
@@ -49,8 +55,14 @@
 
 		<div class="div-example">
 			<img class="lec" src="Images/lec.webp" />
-			<p class="video-title">Lecture</p>
-			<p class="video-author">Author</p>
+			<p class="video-title">The mind behind Linux</p>
+			<p class="video-author">Linux</p>
+			<p class="video-stats">5.6M Views &#183; 1 day ago</p>
+		</div>
+		<div class="div-example">
+			<img class="lec" src="Images/hq720.webp" />
+			<p class="video-title">HTML&CSS</p>
+			<p class="video-author">SuperSimpleDev</p>
 			<p class="video-stats">100 Views &#183; 1 day ago</p>
 		</div>
 	</body>
@@ -71,4 +83,11 @@
 
 <!--
    div: a container element that can hold other elements. key feature is that it can contain other elements. div = contatiners. we need containers to organize the webpage. div is the perfect container element.
+ -->
+
+<!--
+   Nested Layouts: when one container element is inside another container element.
+   2 types of layouts:
+   1. Vertical Layout: elements are stacked on top of each other.
+   2. Horizontal Layout: elements are placed side by side.
  -->
