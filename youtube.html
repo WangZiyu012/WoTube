@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>WoTube</title>
+		<style>
+			.lec {
+				display: block;
+				width: 300px;
+				object-position: contain;
+				object-fit: cover;
+				border: 2px solid rgb(87, 89, 85);
+				margin-bottom: 10px;
+				border-radius: 7px;
+			}
+
+			.search {
+				width: 100px;
+				height: 30px;
+				border-radius: 7px;
+				border: 1px solid rgb(9, 131, 245);
+				padding-left: 10px;
+			}
+
+			.video-title {
+				font-size: 24px;
+				font-weight: bold;
+				margin-bottom: 0;
+			}
+
+			.video-author,
+			.video-stats {
+				display: inline-block;
+				font-size: 14px;
+				color: rgb(189, 35, 35);
+				margin-top: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<img class="lec" src="Images/lec.webp" />
+		<input class="search" type="text" placeholder="Search " />
+		<p class="video-title">Lecture</p>
+		<p class="video-author">Author</p>
+		<p class="video-stats">100 Views &#183; 1 day ago</p>
+	</body>
+</html>
+
+<!-- 
+   placeholder: text that appears in the input field before the user types anything.
+
+   CSS display property: to change the layout of the webpage.
+
+   3 types of display property:
+   1. block: the element will take up the full width of the page. (paragraphs, headings, divs)
+   2. inline: the element will appear in the text. (links, spans, highlight)
+   3. inline-block: the element will take up as much space as needed.(buttons, images, input fields)
+
+   switch between display property: display: block; display: inline; display: inline-block;
+ -->
