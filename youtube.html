@@ -48,17 +48,40 @@
 				vertical-align: top;
 				margin-right: 17px;
 			}
+
+			.icon {
+				display: inline-block;
+				width: 30px;
+				height: 30px;
+				border-radius: 50%;
+				margin-top: 0px;
+			}
+
+			.video-info {
+				display: inline-block;
+				width: 200px;
+			}
 		</style>
 	</head>
 	<body>
 		<input class="search" type="text" placeholder="Search " />
 
 		<div class="div-example">
-			<img class="lec" src="Images/lec.webp" />
-			<p class="video-title">The mind behind Linux</p>
-			<p class="video-author">Linux</p>
-			<p class="video-stats">5.6M Views &#183; 1 day ago</p>
+			<div>
+				<img class="lec" src="Images/lec.webp" />
+			</div>
+			<div>
+				<div class="icon">
+					<img class="icon" src="Images/lec_icon.jpeg" />
+				</div>
+				<div class="video-info">
+					<p class="video-title">The mind behind Linux</p>
+					<p class="video-author">Linux</p>
+					<p class="video-stats">5.6M Views &#183; 1 day ago</p>
+				</div>
+			</div>
 		</div>
+
 		<div class="div-example">
 			<img class="lec" src="Images/hq720.webp" />
 			<p class="video-title">HTML&CSS</p>
