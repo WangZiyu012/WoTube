@@ -5,7 +5,7 @@
 		<style>
 			.lec {
 				display: block;
-				width: 300px;
+				width: 100%;
 				object-position: contain;
 				object-fit: cover;
 				border: 2px solid rgb(87, 89, 85);
@@ -60,8 +60,8 @@
 			}
 
 			.video-info {
-				display: inline-block;
-				width: 200px;
+				display: grid;
+				grid-template-columns: 50px 1fr;
 			}
 		</style>
 	</head>
@@ -72,11 +72,11 @@
 			<div>
 				<img class="lec" src="Images/lec.webp" />
 			</div>
-			<div>
-				<div class="icon">
+			<div class="video-info">
+				<div>
 					<img class="icon" src="Images/lec_icon.jpeg" />
 				</div>
-				<div class="video-info">
+				<div>
 					<p class="video-title">The mind behind Linux</p>
 					<p class="video-author">Linux</p>
 					<p class="video-stats">5.6M Views &#183; 1 day ago</p>
@@ -89,11 +89,11 @@
 				<img class="lec" src="Images/hq720.webp" />
 			</div>
 
-			<div>
-				<div class="icon">
+			<div class="video-info">
+				<div>
 					<img class="icon" src="Images/hq720_icon.jpeg" />
 				</div>
-				<div class="video-info">
+				<div>
 					<p class="video-title">HTML&CSS</p>
 					<p class="video-author">SuperSimpleDev</p>
 					<p class="video-stats">100 Views &#183; 1 day ago</p>
